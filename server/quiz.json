@@ -1,0 +1,512 @@
+[
+    
+  {
+    "name": "DCCN",
+    "id": "gen1",
+    "category":"FIVE",
+    "sortOrder":2,
+    "description": "This Quiz includes the MCQ asked in OA and GATE",
+    "imageUrl":"http://localhost:57619/server/dccn.png",
+    "random":true,
+    "questions": [
+      {
+        "text": "What is the fundamental purpose of a computer network?",
+        "choices": [
+          { "text": "Sharing resources", "correct": true, "feedback": "Correct! Networks share resources." },
+          { "text": "Storing data", "correct": false, "feedback": "Incorrect. Networks mainly share resources." },
+          { "text": "Performing calculations", "correct": false, "feedback": "Incorrect. This isn't the main purpose." },
+          { "text": "Enhancing security", "correct": false, "feedback": "Incorrect. Security is a feature, not the purpose." }
+        ]
+      },
+      {
+        "text": "Which topology does the Internet resemble?",
+        "choices": [
+          { "text": "Ring", "correct": false, "feedback": "Incorrect. The Internet isn't a ring." },
+          { "text": "Bus", "correct": false, "feedback": "Incorrect. The Internet isn't a bus topology." },
+          { "text": "Star", "correct": false, "feedback": "Incorrect. The Internet is more complex." },
+          { "text": "Mesh", "correct": true, "feedback": "Correct! The Internet is like a mesh." }
+        ]
+      },
+      {
+        "text": "What type of network covers a large geographical area?",
+        "choices": [
+          { "text": "LAN", "correct": false, "feedback": "Incorrect. LAN is for small areas." },
+          { "text": "MAN", "correct": false, "feedback": "Incorrect. MAN is for cities." },
+          { "text": "WAN", "correct": true, "feedback": "Correct! WAN covers large areas." },
+          { "text": "PAN", "correct": false, "feedback": "Incorrect. PAN is for personal devices." }
+        ]
+      },
+      {
+        "text": "Which device connects different network segments?",
+        "choices": [
+          { "text": "Repeater", "correct": false, "feedback": "Incorrect. Repeaters boost signals." },
+          { "text": "Router", "correct": true, "feedback": "Correct! Routers connect segments." },
+          { "text": "Bridge", "correct": false, "feedback": "Incorrect. Bridges connect similar networks." },
+          { "text": "Modem", "correct": false, "feedback": "Incorrect. Modems connect to the Internet." }
+        ]
+      },
+      {
+        "text": "What protocol is used for transmitting web pages?",
+        "choices": [
+          { "text": "SMTP", "correct": false, "feedback": "Incorrect. SMTP is for emails." },
+          { "text": "FTP", "correct": false, "feedback": "Incorrect. FTP is for file transfers." },
+          { "text": "HTTP", "correct": true, "feedback": "Correct! HTTP transmits web pages." },
+          { "text": "SNMP", "correct": false, "feedback": "Incorrect. SNMP is for network management." }
+        ]
+      },
+      {
+        "text": "Which OSI layer ensures error-free data transmission?",
+        "choices": [
+          { "text": "Physical Layer", "correct": false, "feedback": "Incorrect. It handles raw data transmission." },
+          { "text": "Data Link Layer", "correct": true, "feedback": "Correct! It ensures error-free transmission." },
+          { "text": "Network Layer", "correct": false, "feedback": "Incorrect. It handles data routing." },
+          { "text": "Transport Layer", "correct": false, "feedback": "Incorrect. Error correction is at the Data Link Layer." }
+        ]
+      },
+      {
+        "text": "What is the function of the Application Layer?",
+        "choices": [
+          { "text": "To provide network services", "correct": true, "feedback": "Correct! It provides network services." },
+          { "text": "To transmit data", "correct": false, "feedback": "Incorrect. Lower layers handle data transmission." },
+          { "text": "To package data", "correct": false, "feedback": "Incorrect. The Transport Layer handles this." },
+          { "text": "To route data", "correct": false, "feedback": "Incorrect. The Network Layer handles routing." }
+        ]
+      },
+      {
+        "text": "Which command views a device's IP configuration?",
+        "choices": [
+          { "text": "ipconfig", "correct": false, "feedback": "Partially correct. Used on Windows." },
+          { "text": "ifconfig", "correct": false, "feedback": "Partially correct. Used on Unix systems." },
+          { "text": "Both ipconfig and ifconfig", "correct": true, "feedback": "Correct! Both commands are used." },
+          { "text": "netstat", "correct": false, "feedback": "Incorrect. netstat shows connections." }
+        ]
+      },
+      {
+        "text": "What happens when running 'ping localhost'?",
+        "choices": [
+          { "text": "Sends echo requests to local machine", "correct": true, "feedback": "Correct! It tests local communication." },
+          { "text": "Configures the IP address", "correct": false, "feedback": "Incorrect. It doesn't configure anything." },
+          { "text": "Displays the routing table", "correct": false, "feedback": "Incorrect. Use 'route' or 'netstat' for that." },
+          { "text": "Clears the DNS cache", "correct": false, "feedback": "Incorrect. Use 'ipconfig /flushdns' instead." }
+        ]
+      },
+      {
+        "text": "What should be checked first if Internet access fails?",
+        "choices": [
+          { "text": "Router configuration", "correct": false, "feedback": "Incorrect. Local connections are fine." },
+          { "text": "Cable connections", "correct": false, "feedback": "Incorrect. Cables are likely okay." },
+          { "text": "Local firewall settings", "correct": false, "feedback": "Incorrect" },
+          { "text": "DNS settings", "correct": true, "feedback": "Correct! Check DNS settings." }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Theory of computation",
+    "id": "gen2",
+    "category":"FIVE",
+    "sortOrder":1,
+    "description": "This Quiz includes the MCQ asked in OA and GATE",
+    "imageUrl":"http://localhost:57619/server/toc.png",
+    "random":true,
+    "questions": [
+      {
+        "text": "Let L = {w = (0+1)* | w has even number of 1's }. Which regular expression represents L? (ISRO-2016)",
+        "choices": [
+          { "text": "(0*10*1)*", "correct": false, "feedback": "Incorrect. Doesn't cover all cases." },
+          { "text": "0*(10*10*)*", "correct": true, "feedback": "Correct! Ensures even 1's with flexibility." },
+          { "text": "0*(10*1*)*0*", "correct": false, "feedback": "Incorrect. Doesn't guarantee even 1's." },
+          { "text": "0*1(10*1)10*", "correct": false, "feedback": "Incorrect. Misrepresents structure." }
+        ]
+      },
+      {
+        "text": "The grammar {S -> aSa | bSb | a | b} generates which language? (ISRO 2016)",
+        "choices": [
+          { "text": "All palindromes", "correct": false, "feedback": "Incorrect. It generates a subset of palindromes." },
+          { "text": "All odd length palindromes", "correct": true, "feedback": "Correct! Odd-length palindromes." },
+          { "text": "Strings that begin and end with the same symbol", "correct": false, "feedback": "Incorrect. Not the focus of the grammar." },
+          { "text": "All even length palindromes", "correct": false, "feedback": "Incorrect. It\\'s for odd-length only." }
+        ]
+      },
+      {
+        "text": "The number of states required by an FSM to simulate a computer with memory storing m words, each of length n bits is?",
+        "choices": [
+          { "text": "M x 2^n", "correct": false, "feedback": "Incorrect. Misrepresents the total states." },
+          { "text": "2m+n", "correct": false, "feedback": "Incorrect. Misinterprets the memory requirement." },
+          { "text": "2^mn", "correct": true, "feedback": "Correct! Total states depend on combinations of words and bits." },
+          { "text": "M+n", "correct": false, "feedback": "Incorrect. Too simplified." }
+        ]
+      },
+      {
+        "text": "Let S = {7-bit binary strings where the first, fourth, and last bits are 1}. How many strings in S are accepted by M? (GATE-CS-2003)",
+        "choices": [
+          { "text": "1", "correct": false, "feedback": "Incorrect. Underestimates possibilities." },
+          { "text": "5", "correct": false, "feedback": "Incorrect. Miscalculates." },
+          { "text": "7", "correct": true, "feedback": "Correct! 2^4 combinations give 7 valid strings." },
+          { "text": "8", "correct": false, "feedback": "Incorrect. Overestimates total." }
+        ]
+      },
+      {
+        "text": "What language is described by the regular expression: (0+1)*1(0+1)*1? (NIELIT Scientist-B 2018)",
+        "choices": [
+          { "text": "The set of all strings containing the substrings 11", "correct": false, "feedback": "Incorrect. Matches any occurrence of '11'." },
+          { "text": "The set of all strings containing at most two 1's", "correct": false, "feedback": "Incorrect. Allows more than two 1's." },
+          { "text": "The set of all strings containing at least two 1's", "correct": true, "feedback": "Correct! Ensures at least two 1's." },
+          { "text": "The set of all strings that begin and end with only 0", "correct": false, "feedback": "Incorrect. Doesn't fit the pattern." }
+        ]
+      },
+      {
+        "text": "Which strings are in L* for L = {ab, aa, baa}? (GATE CS 2012)",
+        "choices": [
+          { "text": "1, 2 and 3", "correct": false, "feedback": "Incorrect. Doesn't match all criteria." },
+          { "text": "2, 3 and 4", "correct": false, "feedback": "Incorrect. 1 also fits." },
+          { "text": "1, 2 and 4", "correct": true, "feedback": "Correct! These strings are concatenations of L." },
+          { "text": "1, 3 and 4", "correct": false, "feedback": "Incorrect. 2 is also valid." }
+        ]
+      },
+      {
+        "text": "Which of the following are not regular? (UGC NET CS 2017 Jan)",
+        "choices": [
+          { "text": "(A) and (B) only", "correct": false, "feedback": "Incorrect. Misses (C)." },
+          { "text": "(A), (B) and (C) only", "correct": true, "feedback": "Correct! Palindromes and primes are not regular." },
+          { "text": "(B), (C) and (D) only", "correct": false, "feedback": "Incorrect. (A) is regular." },
+          { "text": "(B) and (D) only", "correct": false, "feedback": "Incorrect. Misses (C)." }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "OOPS",
+    "id": "gen3",
+    "category":"THIRD",
+    "random":true,
+    "imageUrl":"http://localhost:57619/server/oop.png",
+    "description": "This Quiz includes the MCQ asked in OA and GATE",
+    
+    "questions": [
+      {
+        "text": "Which of the following is NOT a feature of Object-Oriented Programming?",
+        "choices": [
+          { "text": "Encapsulation", "correct": false, "feedback": "Incorrect. Encapsulation is a fundamental concept of OOP, where data is bundled with methods." },
+          { "text": "Inheritance", "correct": false, "feedback": "Incorrect. Inheritance allows classes to inherit properties and methods from other classes." },
+          { "text": "Abstraction", "correct": false, "feedback": "Incorrect. Abstraction hides the complex implementation and only exposes essential features." },
+          { "text": "Multiprocessing", "correct": true, "feedback": "Correct! Multiprocessing is not a feature of OOP; it relates to executing multiple processes simultaneously." }
+        ]
+      },
+      {
+        "text": "What is the primary benefit of encapsulation in OOP?",
+        "choices": [
+          { "text": "It improves performance by reducing code duplication.", "correct": false, "feedback": "Incorrect. Encapsulation mainly focuses on protecting data by hiding it from unauthorized access." },
+          { "text": "It allows an object to take multiple forms.", "correct": false, "feedback": "Incorrect. This is a description of polymorphism, not encapsulation." },
+          { "text": "It ensures data is hidden from outside interference and misuse.", "correct": true, "feedback": "Correct! Encapsulation hides the internal state of objects and ensures data is accessed only via well-defined methods." },
+          { "text": "It allows objects to inherit properties and methods from other classes.", "correct": false, "feedback": "Incorrect. This is a description of inheritance, not encapsulation." }
+        ]
+      },
+      {
+        "text": "Which of the following is true about a constructor in a class?",
+        "choices": [
+          { "text": "A constructor is used to initialize objects.", "correct": true, "feedback": "Correct! A constructor is called when an object of a class is created to initialize its state." },
+          { "text": "A constructor is a special method that cannot have parameters.", "correct": false, "feedback": "Incorrect. Constructors can have parameters for object initialization." },
+          { "text": "A constructor is inherited by subclasses.", "correct": false, "feedback": "Incorrect. Constructors are not inherited but can be called in a subclass using the `super` keyword." },
+          { "text": "A constructor can be called manually within the class.", "correct": false, "feedback": "Incorrect. Constructors are automatically invoked when creating an object." }
+        ]
+      },
+      {
+        "text": "Which of the following is an example of polymorphism in OOP?",
+        "choices": [
+          { "text": "A class with multiple methods having the same name but different parameters.", "correct": true, "feedback": "Correct! This is method overloading, which is a form of compile-time polymorphism." },
+          { "text": "A class that inherits properties from another class.", "correct": false, "feedback": "Incorrect. Inheritance is not polymorphism, but a mechanism for code reuse." },
+          { "text": "A class with a method that can be overridden by its subclasses.", "correct": false, "feedback": "Incorrect. This is method overriding, a form of runtime polymorphism, but polymorphism can also exist through method overloading." },
+          { "text": "A class that does not use inheritance.", "correct": false, "feedback": "Incorrect. Polymorphism can exist with or without inheritance, especially in method overloading." }
+        ]
+      },
+      {
+        "text": "Which OOP principle allows an object to be used as a subtype of another object?",
+        "choices": [
+          { "text": "Abstraction", "correct": false, "feedback": "Incorrect. Abstraction hides implementation details, but does not allow an object to be used as a subtype." },
+          { "text": "Encapsulation", "correct": false, "feedback": "Incorrect. Encapsulation involves hiding internal data but not subtype relationships." },
+          { "text": "Inheritance", "correct": false, "feedback": "Incorrect. Inheritance allows a class to inherit methods and properties from another class but does not involve using an object as a subtype." },
+          { "text": "Polymorphism", "correct": true, "feedback": "Correct! Polymorphism allows an object to be treated as a member of its superclass or any class it inherits from." }
+        ]
+      },
+      {
+        "text": "What is method overloading in OOP?",
+        "choices": [
+          { "text": "Defining multiple methods with the same name but different return types.", "correct": false, "feedback": "Incorrect. Method overloading is about defining methods with the same name but different parameters, not return types." },
+          { "text": "Defining methods with different names in the same class.", "correct": false, "feedback": "Incorrect. This is not method overloading." },
+          { "text": "Defining multiple methods with the same name but different parameters.", "correct": true, "feedback": "Correct! Method overloading allows defining multiple methods with the same name but different parameter types or counts." },
+          { "text": "Overriding a method in a subclass.", "correct": false, "feedback": "Incorrect. Method overriding occurs when a subclass provides its own implementation of a method defined in the superclass." }
+        ]
+      },
+      {
+        "text": "Which of the following is an example of method overriding?",
+        "choices": [
+          { "text": "A subclass providing a new implementation of a method from the parent class.", "correct": true, "feedback": "Correct! Method overriding allows a subclass to provide its own implementation of a method that was inherited from the parent class." },
+          { "text": "A class defining a method with the same name as a superclass method but with different parameters.", "correct": false, "feedback": "Incorrect. This is method overloading, not overriding." },
+          { "text": "A subclass calling a method from its parent class using the `super` keyword.", "correct": false, "feedback": "Incorrect. This is using the `super` keyword, but it is not method overriding." },
+          { "text": "A subclass defining a constructor with the same name as a method.", "correct": false, "feedback": "Incorrect. Constructors are not methods, and this is not related to method overriding." }
+        ]
+      },
+      {
+        "text": "Which of the following is true about a superclass in OOP?",
+        "choices": [
+          { "text": "A superclass cannot have its own methods or properties.", "correct": false, "feedback": "Incorrect. A superclass can have its own methods and properties, which can be inherited by subclasses." },
+          { "text": "A subclass inherits all methods and properties from the superclass, including private members.", "correct": false, "feedback": "Incorrect. A subclass inherits public and protected members, but private members of the superclass are not directly accessible." },
+          { "text": "A subclass can access both public and private members of the superclass.", "correct": false, "feedback": "Incorrect. Private members of a superclass are not directly accessible by the subclass." },
+          { "text": "A superclass can be inherited by multiple subclasses.", "correct": true, "feedback": "Correct! A superclass can be inherited by multiple subclasses, supporting inheritance and code reuse." }
+        ]
+      },
+      {
+        "text": "What is the primary purpose of using the `super` keyword in Java?",
+        "choices": [
+          { "text": "To access methods and properties of a superclass.", "correct": true, "feedback": "Correct! The `super` keyword is used to access members (methods or variables) of the superclass from the subclass." },
+          { "text": "To define an abstract method in a class.", "correct": false, "feedback": "Incorrect. The `super` keyword is not used for defining abstract methods." },
+          { "text": "To declare a constructor in the subclass.", "correct": false, "feedback": "Incorrect. The `super` keyword is used to call the superclass constructor, not to declare constructors." },
+          { "text": "To create a new instance of the superclass.", "correct": false, "feedback": "Incorrect. The `super` keyword is not used for object creation; it is used to reference the superclass." }
+        ]
+      },
+      {
+        "text": "What does it mean when a class is said to be abstract in OOP?",
+        "choices": [
+          { "text": "The class cannot be instantiated and can only be used as a base class.", "correct": true, "feedback": "Correct! An abstract class cannot be instantiated, and it is meant to be extended by other classes." },
+          { "text": "The class can be instantiated, but its methods must be abstract.", "correct": false, "feedback": "Incorrect. Abstract methods must be implemented in subclasses, but the class itself cannot be instantiated." },
+          { "text": "The class can only have abstract methods.", "correct": false, "feedback": "Incorrect. An abstract class can have both abstract and concrete (non-abstract) methods." },
+          { "text": "An abstract class is a class that implements all its methods.", "correct": false, "feedback": "Incorrect. Abstract classes may or may not implement methods, and they can contain abstract methods that must be implemented by subclasses." }
+        ]
+      },
+      {
+        "text": "What does the term 'constructor chaining' refer to in OOP?",
+        "choices": [
+          { "text": "Calling a constructor of the same class from another constructor within the class.", "correct": true, "feedback": "Correct! Constructor chaining refers to calling one constructor from another within the same class using `this()`." },
+          { "text": "Calling the superclass constructor from the subclass constructor using `super()`.", "correct": false, "feedback": "Incorrect. This is related to constructor chaining in inheritance, not within the same class." },
+          { "text": "Defining multiple constructors with the same name but different parameters.", "correct": false, "feedback": "Incorrect. This is method overloading, not constructor chaining." },
+          { "text": "Calling the constructor of the parent class inside a subclass constructor.", "correct": false, "feedback": "Incorrect. This is the use of `super()`, not constructor chaining." }
+        ]
+      },
+      {
+        "text": "Which of the following is true about polymorphism in OOP?",
+        "choices": [
+          { "text": "Polymorphism allows a class to inherit from multiple classes.", "correct": false, "feedback": "Incorrect. Polymorphism refers to objects being treated as instances of their parent class, not multiple inheritance." },
+          { "text": "Polymorphism allows methods to be called on objects of different types and behaves differently.", "correct": true, "feedback": "Correct! Polymorphism allows a single method to behave differently based on the type of the object it is called on." },
+          { "text": "Polymorphism requires a class to have multiple constructors.", "correct": false, "feedback": "Incorrect. Polymorphism is about method behavior, not the number of constructors." },
+          { "text": "Polymorphism is not possible with inheritance.", "correct": false, "feedback": "Incorrect. Polymorphism is closely tied to inheritance, where a subclass can override methods from its superclass." }
+        ]
+      },
+      {
+        "text": "What is the default visibility of members in a Java class?",
+        "choices": [
+          { "text": "Private", "correct": false, "feedback": "Incorrect. By default, members are not private unless explicitly specified." },
+          { "text": "Protected", "correct": false, "feedback": "Incorrect. Protected members can be accessed by subclasses and classes in the same package." },
+          { "text": "Public", "correct": false, "feedback": "Incorrect. Public members can be accessed by any class, not restricted to the same package." },
+          { "text": "Package-private (default)", "correct": true, "feedback": "Correct! If no access modifier is specified, Java members are package-private, meaning they are accessible within the same package." }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "OPERATING SYSTEM",
+    "id": "gen4",
+    "category":"THIRD",
+    "random":true,
+    "imageUrl":"http://localhost:57619/server/os.png",
+    "description": "This Quiz includes the MCQ asked in OA and GATE",
+    "questions": 
+      [
+        {
+          "text": "What is an operating system?",
+          "choices": [
+            { "text": "A system that manages hardware and software resources", "correct": true, "feedback": "Correct! An operating system manages hardware and software resources." },
+            { "text": "A programming language used to write software", "correct": false, "feedback": "Incorrect. A programming language is used to write software, not manage resources." },
+            { "text": "A set of applications that run on a computer", "correct": false, "feedback": "Incorrect. Applications run on the operating system, but they are not the OS itself." },
+            { "text": "A device used to interact with the computer", "correct": false, "feedback": "Incorrect. Devices are peripherals, not the operating system." }
+          ]
+        },
+        {
+          "text": "What are system calls?",
+          "choices": [
+            { "text": "Functions that provide an interface between a program and the operating system", "correct": true, "feedback": "Correct! System calls allow user programs to interact with the OS." },
+            { "text": "Functions that manage user data", "correct": false, "feedback": "Incorrect. System calls are used for interacting with the OS, not managing data." },
+            { "text": "Functions used to perform arithmetic operations", "correct": false, "feedback": "Incorrect. Arithmetic operations are performed by regular functions, not system calls." },
+            { "text": "Commands used by the user to interact with the OS", "correct": false, "feedback": "Incorrect. System calls are made by programs, not directly by users." }
+          ]
+        },
+        {
+          "text": "What is the difference between a process and a thread?",
+          "choices": [
+            { "text": "A process is an independent program, and a thread is a lightweight unit of execution within a process", "correct": true, "feedback": "Correct! A thread is part of a process and shares its resources." },
+            { "text": "A thread is a complete program, and a process is a part of a program", "correct": false, "feedback": "Incorrect. A process is a complete program, and a thread is part of it." },
+            { "text": "A process is a program running in isolation, and a thread cannot run independently", "correct": false, "feedback": "Incorrect. Threads can run concurrently and share resources with other threads." },
+            { "text": "A process is a system resource, and a thread is an application-level feature", "correct": false, "feedback": "Incorrect. Both processes and threads are related to program execution, not system resources." }
+          ]
+        },
+        {
+          "text": "What is a context switch?",
+          "choices": [
+            { "text": "The process of saving the state of a currently running process and loading the state of another", "correct": true, "feedback": "Correct! A context switch allows multitasking by switching between processes." },
+            { "text": "The process of switching between different operating systems on a device", "correct": false, "feedback": "Incorrect. Context switching is about managing processes within an OS, not switching OS." },
+            { "text": "The process of restarting a process from the beginning", "correct": false, "feedback": "Incorrect. Context switching saves and loads states without restarting the process." },
+            { "text": "The process of allocating more resources to a running process", "correct": false, "feedback": "Incorrect. Context switching involves switching processes, not resource allocation." }
+          ]
+        },
+        {
+          "text": "What is the difference between preemptive and non-preemptive scheduling?",
+          "choices": [
+            { "text": "Preemptive scheduling allows the OS to forcibly remove a process from the CPU, while non-preemptive scheduling does not", "correct": true, "feedback": "Correct! Preemptive scheduling can interrupt a process, whereas non-preemptive scheduling allows it to finish first." },
+            { "text": "Non-preemptive scheduling allows the OS to forcibly remove a process, while preemptive scheduling does not", "correct": false, "feedback": "Incorrect. It’s the opposite – preemptive scheduling can interrupt a process." },
+            { "text": "Preemptive scheduling runs processes sequentially, while non-preemptive scheduling allows parallel execution", "correct": false, "feedback": "Incorrect. Both scheduling types handle process execution, but preemptive can interrupt processes." },
+            { "text": "Preemptive scheduling always runs the shortest process first", "correct": false, "feedback": "Incorrect. Preemptive scheduling can switch between processes, but does not guarantee shortest process execution." }
+          ]
+        },
+        {
+          "text": "What is process synchronization?",
+          "choices": [
+            { "text": "The coordination of processes to ensure they execute in a controlled manner", "correct": true, "feedback": "Correct! Synchronization ensures processes do not interfere with each other during execution." },
+            { "text": "The mechanism by which processes are scheduled in the CPU", "correct": false, "feedback": "Incorrect. Scheduling and synchronization are different concepts." },
+            { "text": "The process of creating new processes in the system", "correct": false, "feedback": "Incorrect. Synchronization is not about process creation." },
+            { "text": "The process of terminating processes once they are completed", "correct": false, "feedback": "Incorrect. Synchronization ensures proper execution, not termination." }
+          ]
+        },
+        {
+          "text": "What is the dining philosophers problem?",
+          "choices": [
+            { "text": "A synchronization problem where philosophers must share resources (like chopsticks) without causing deadlock", "correct": true, "feedback": "Correct! The problem deals with process synchronization and resource sharing." },
+            { "text": "A problem where philosophers must eat in a particular order", "correct": false, "feedback": "Incorrect. The problem is about resource sharing, not eating order." },
+            { "text": "A problem about philosophers discussing philosophical concepts", "correct": false, "feedback": "Incorrect. The problem is about synchronization and resource allocation." },
+            { "text": "A problem where philosophers are assigned resources randomly", "correct": false, "feedback": "Incorrect. The problem deals with ensuring fair resource sharing without deadlock." }
+          ]
+        },
+        {
+          "text": "What is the role of a process control block (PCB) in an operating system?",
+          "choices": [
+            { "text": "It stores the process's state, program counter, and other vital information for process management", "correct": true, "feedback": "Correct! A PCB stores necessary information about a process for management." },
+            { "text": "It stores the resources allocated to a process during execution", "correct": false, "feedback": "Incorrect. The PCB stores process information, not allocated resources." },
+            { "text": "It manages memory allocation for processes", "correct": false, "feedback": "Incorrect. The PCB stores process state, not memory allocation." },
+            { "text": "It handles scheduling tasks for processes", "correct": false, "feedback": "Incorrect. The PCB stores process details, but scheduling is handled separately." }
+          ]
+        },
+        {
+          "text": "What is inter-process communication (IPC)?",
+          "choices": [
+            { "text": "The mechanism by which processes communicate and synchronize with each other", "correct": true, "feedback": "Correct! IPC allows processes to share data and synchronize actions." },
+            { "text": "A technique for managing memory resources between processes", "correct": false, "feedback": "Incorrect. IPC is about communication and synchronization, not memory management." },
+            { "text": "The process of switching between different operating system processes", "correct": false, "feedback": "Incorrect. IPC is about communication, not switching between processes." },
+            { "text": "The method used by the operating system to allocate CPU time to processes", "correct": false, "feedback": "Incorrect. CPU scheduling is separate from IPC." }
+          ]
+        },
+        {
+          "text": "Which scheduling algorithm assigns CPU time based on process priority?",
+          "choices": [
+            { "text": "First-Come, First-Served", "correct": false, "feedback": "Incorrect. FCFS assigns CPU time based on arrival order, not priority." },
+            { "text": "Shortest Job First", "correct": false, "feedback": "Incorrect. SJF assigns CPU time based on the shortest job, not priority." },
+            { "text": "Priority Scheduling", "correct": true, "feedback": "Correct! Priority Scheduling assigns CPU time based on process priority." },
+            { "text": "Round-Robin", "correct": false, "feedback": "Incorrect. Round-Robin assigns CPU time in a fixed order, not based on priority." }
+          ]
+        }
+        
+       
+    ]
+  }
+  ,{
+    "name": "DBMS",
+    "id": "gen5",
+    "category":"THIRD",
+    "random":true,
+    "imageUrl":"http://localhost:57619/server/dbms.png",
+    "description": "This Quiz includes the MCQ asked in OA and GATE",
+    "questions": [
+      {
+        "text": "Which of the below query is correct to display students age within 18 and 30 years (both inclusive)?",
+        "choices": [
+          { "text": "SELECT * FROM STUDENT WHERE age IN (18 and 30)", "correct": false, "feedback": "Incorrect. The correct operator for a range is BETWEEN, not IN." },
+          { "text": "SELECT * FROM STUDENT WHERE age WITHIN ( 18 AND 30 )", "correct": false, "feedback": "Incorrect. 'WITHIN' is not a valid operator in SQL for range checking." },
+          { "text": "SELECT * FROM STUDENT HAVING age WITHIN ( 18 AND 30 )", "correct": false, "feedback": "Incorrect. The 'HAVING' clause is used with GROUP BY, not for range checking." },
+          { "text": "SELECT * FROM STUDENT WHERE age BETWEEN ( 18 AND 30 )", "correct": true, "feedback": "Correct! The BETWEEN operator is used to filter records within a specific range." }
+        ]
+      },
+      {
+        "text": "Which statement is used to get all data from the student table whose name starts with B?",
+        "choices": [
+          { "text": "SELECT * FROM student WHERE name = 'B%';", "correct": false, "feedback": "Incorrect. '=' is not the correct operator for pattern matching." },
+          { "text": "SELECT * FROM student WHERE name LIKE 'B%';", "correct": true, "feedback": "Correct! The LIKE operator is used for pattern matching in SQL." },
+          { "text": "SELECT * FROM student WHERE name = 'B_';", "correct": false, "feedback": "Incorrect. '_' is used for a single character match, not for starting with 'B'." },
+          { "text": "SELECT * FROM student WHERE name LIKE '%B';", "correct": false, "feedback": "Incorrect. '%' at the beginning of the pattern matches names ending with 'B', not starting with it." }
+        ]
+      },
+      {
+        "text": "Which query is used to find the second highest salary in a table?",
+        "choices": [
+          { "text": "SELECT MAX(salary) FROM employees;", "correct": false, "feedback": "Incorrect. This returns the highest salary, not the second highest." },
+          { "text": "SELECT salary FROM employees ORDER BY salary DESC LIMIT 1 OFFSET 1;", "correct": true, "feedback": "Correct! This query orders the salaries in descending order and skips the first result to get the second highest salary." },
+          { "text": "SELECT MIN(salary) FROM employees;", "correct": false, "feedback": "Incorrect. This returns the lowest salary, not the second highest." },
+          { "text": "SELECT salary FROM employees WHERE salary < (SELECT MAX(salary) FROM employees) LIMIT 1;", "correct": false, "feedback": "Incorrect. This query might return one of the salaries less than the maximum, but not necessarily the second highest." }
+        ]
+      },
+      {
+        "text": "Which query is used to find the top 3 highest salaries in a table?",
+        "choices": [
+          { "text": "SELECT salary FROM employees ORDER BY salary DESC LIMIT 3;", "correct": true, "feedback": "Correct! This query orders the salaries in descending order and limits the result to the top 3." },
+          { "text": "SELECT MAX(salary) FROM employees LIMIT 3;", "correct": false, "feedback": "Incorrect. This query only returns the highest salary, not the top 3." },
+          { "text": "SELECT salary FROM employees WHERE salary > (SELECT MIN(salary) FROM employees) LIMIT 3;", "correct": false, "feedback": "Incorrect. This query filters salaries greater than the minimum, but not necessarily the top 3." },
+          { "text": "SELECT salary FROM employees ORDER BY salary ASC LIMIT 3;", "correct": false, "feedback": "Incorrect. This orders the salaries in ascending order and fetches the lowest 3 salaries, not the top 3." }
+        ]
+      },
+      {
+        "text": "Which of the following is not a DDL command?",
+        "choices": [
+          { "text": "TRUNCATE", "correct": false, "feedback": "Incorrect. TRUNCATE is a DDL command." },
+          { "text": "UPDATE", "correct": true, "feedback": "Correct! UPDATE is a DML command, not DDL." },
+          { "text": "CREATE", "correct": false, "feedback": "Incorrect. CREATE is a DDL command." },
+          { "text": "ALTER", "correct": false, "feedback": "Incorrect. ALTER is a DDL command." }
+        ]
+      },
+      {
+        "text": "Which of the following is a TCL command?",
+        "choices": [
+          { "text": "GRANT", "correct": false, "feedback": "Incorrect. GRANT is a DCL command." },
+          { "text": "UPDATE", "correct": false, "feedback": "Incorrect. UPDATE is a DML command." },
+          { "text": "ROLLBACK", "correct": true, "feedback": "Correct! ROLLBACK is a TCL command." },
+          { "text": "ALTER", "correct": false, "feedback": "Incorrect. ALTER is a DDL command." }
+        ]
+      },
+      {
+        "text": "Which of the following are some common RDBMS in use?",
+        "choices": [
+          { "text": "Oracle", "correct": true, "feedback": "Correct! Oracle is a widely used RDBMS." },
+          { "text": "MySQL", "correct": true, "feedback": "Correct! MySQL is a popular open-source RDBMS." },
+          { "text": "SQL Server", "correct": true, "feedback": "Correct! SQL Server is a well-known RDBMS by Microsoft." },
+          { "text": "All of the Above", "correct": true, "feedback": "Correct! All the options are common RDBMS." }
+        ]
+      },
+      {
+        "text": "What does the following statement in SQL do? DROP TABLE student;",
+        "choices": [
+          { "text": "Delete all data from student table", "correct": false, "feedback": "Incorrect. DROP removes the table itself, not just the data." },
+          { "text": "Deletes Student table", "correct": true, "feedback": "Correct! DROP TABLE removes the entire table." },
+          { "text": "Delete all tables from database", "correct": false, "feedback": "Incorrect. This only deletes the 'student' table." },
+          { "text": "Invalid statement", "correct": false, "feedback": "Incorrect. DROP TABLE is a valid SQL statement." }
+        ]
+      },
+      {
+        "text": "How many records will be fetched from the below query if the table has total 10 rows: select * from students where marks > (select max(marks) from students);",
+        "choices": [
+          { "text": "0", "correct": true, "feedback": "Correct! The subquery returns the maximum marks, and no record can have marks greater than the maximum." },
+          { "text": "1", "correct": false, "feedback": "Incorrect. There are no records greater than the maximum value." },
+          { "text": "2", "correct": false, "feedback": "Incorrect. There are no records greater than the maximum value." },
+          { "text": "10", "correct": false, "feedback": "Incorrect. There are no records greater than the maximum value." }
+        ]
+      },
+      {
+        "text": "What is the output of the below query: select TO_CHAR(TO_DATE('03-03-22'),'YEAR') from dual;",
+        "choices": [
+          { "text": "22", "correct": false, "feedback": "Incorrect. The YEAR format in TO_CHAR will return the full year, not just the last two digits." },
+          { "text": "2022", "correct": true, "feedback": "Correct! The TO_CHAR function will return '2022' from the input '03-03-22'." },
+          { "text": "Twenty-Two", "correct": false, "feedback": "Incorrect. The YEAR format in TO_CHAR returns the full numeric year, not in words." },
+          { "text": "Twenty Twenty-Two", "correct": false, "feedback": "Incorrect. The YEAR format in TO_CHAR returns the full numeric year, not in words." }
+        ]
+      }
+    
+      
+      
+    ]
+  }
+]

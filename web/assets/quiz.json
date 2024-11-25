@@ -1,0 +1,175 @@
+[
+    
+    {
+      "name": "Data Communication and Computer Networks",
+      "id": "gen1",
+      "description": "This Quiz is about the question asked in OA on computer Networks",
+      "questions": [
+        {
+          "text": "Number of layers in OSI models?",
+          "choices": [
+            {
+              "text": "3",
+              "correct": false,
+              "feedback": "No, it is wrong answer correct is 7"
+            },
+            {
+              "text": "7",
+              "correct": true,
+              "feedback": "Yes correct"
+            },
+            {
+              "text": "4",
+              "correct": false,
+              "feedback": "No, it is wrong answer correct is 7"
+            },
+            {
+              "text": "None of these",
+              "correct": false,
+              "feedback": "No, it is wrong answer correct is 7"
+            }
+          ]
+        },
+        {
+          "text": "Number of layers in OSI models?",
+          "choices": [
+            {
+              "text": "3",
+              "correct": false,
+              "feedback": "No, it is wrong answer correct is 7"
+            },
+            {
+              "text": "7",
+              "correct": true,
+              "feedback": "Yes correct"
+            },
+            {
+              "text": "4",
+              "correct": false,
+              "feedback": "No, it is wrong answer correct is 7"
+            },
+            {
+              "text": "None of these",
+              "correct": false,
+              "feedback": "No, it is wrong answer correct is 7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Theory of computation",
+      "id": "gen2",
+      "description": "This Quiz is about the question asked in OA on Theory of Computation",
+      "questions": [
+        {
+          "text": "What is DFA?",
+          "choices": [
+            {
+              "text": "3",
+              "correct": false,
+              "feedback": "No, it is wrong answer correct is 7"
+            },
+            {
+              "text": "7",
+              "correct": true,
+              "feedback": "Yes correct"
+            },
+            {
+              "text": "4",
+              "correct": false,
+              "feedback": "No, it is wrong answer correct is 7"
+            },
+            {
+              "text": "None of these",
+              "correct": false,
+              "feedback": "No, it is wrong answer correct is 7"
+            }
+          ]
+        },
+        {
+          "text": "Number of layers in OSI models?",
+          "choices": [
+            {
+              "text": "3",
+              "correct": false,
+              "feedback": "No, it is wrong answer correct is 7"
+            },
+            {
+              "text": "7",
+              "correct": true,
+              "feedback": "Yes correct"
+            },
+            {
+              "text": "4",
+              "correct": false,
+              "feedback": "No, it is wrong answer correct is 7"
+            },
+            {
+              "text": "None of these",
+              "correct": false,
+              "feedback": "No, it is wrong answer correct is 7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OOPS",
+      "id": "gen3",
+      "description": "This Quiz is about the question asked in OA on computer Networks",
+      "questions": [
+        {
+          "text": "What is encapsulation?",
+          "choices": [
+            {
+              "text": "3",
+              "correct": false,
+              "feedback": "No, it is wrong answer correct is 7"
+            },
+            {
+              "text": "7",
+              "correct": true,
+              "feedback": "Yes correct"
+            },
+            {
+              "text": "4",
+              "correct": false,
+              "feedback": "No, it is wrong answer correct is 7"
+            },
+            {
+              "text": "None of these",
+              "correct": false,
+              "feedback": "No, it is wrong answer correct is 7"
+            }
+          ]
+        },
+        {
+          "text": "Number of layers in OSI models?",
+          "choices": [
+            {
+              "text": "3",
+              "correct": false,
+              "feedback": "No, it is wrong answer correct is 7"
+            },
+            {
+              "text": "7",
+              "correct": true,
+              "feedback": "Yes correct"
+            },
+            {
+              "text": "4",
+              "correct": false,
+              "feedback": "No, it is wrong answer correct is 7"
+            },
+            {
+              "text": "None of these",
+              "correct": false,
+              "feedback": "No, it is wrong answer correct is 7"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+  
